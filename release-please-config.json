@@ -1,19 +1,24 @@
 {
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "changelog-sections": [
+        { "type": "feat", "section": "Features", "hidden": false },
+        { "type": "fix", "section": "Bug Fixes", "hidden": false },
+        { "type": "perf", "section": "Performance", "hidden": false },
+        { "type": "revert", "section": "Reverts", "hidden": false },
+        { "type": "build", "section": "Build System", "hidden": false },
+        { "type": "chore", "section": "Miscellaneous", "hidden": false },
+        { "type": "ci", "section": "Continuous Integration", "hidden": false },
+        { "type": "refactor", "section": "Code Refactoring", "hidden": false },
+        { "type": "test", "section": "Tests", "hidden": false }
+      ]
+    }
+  },
   "branches": [
     { "branch": "master" },
     { "branch": "alpha", "prerelease": true }
   ],
   "include-v-in-tag": true,
-  "pull-request-title-pattern": "chore: release v${version}",
-  "changelog-types": [
-    { "type": "feat", "section": "Features", "hidden": false },
-    { "type": "fix", "section": "Bug Fixes", "hidden": false },
-    { "type": "perf", "section": "Performance", "hidden": false },
-    { "type": "revert", "section": "Reverts", "hidden": false },
-    { "type": "build", "section": "Build System", "hidden": false },
-    { "type": "chore", "section": "Miscellaneous", "hidden": false },
-    { "type": "ci", "section": "Continuous Integration", "hidden": false },
-    { "type": "refactor", "section": "Code Refactoring", "hidden": false },
-    { "type": "test", "section": "Tests", "hidden": false }
-  ]
+  "pull-request-title-pattern": "chore: release v${version}"
 }
