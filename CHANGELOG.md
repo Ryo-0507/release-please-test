@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Ryo-0507/release-please-test/compare/v1.0.1...v1.1.0) (2026-01-12)
+
+
+### Features
+
+* マイナーバージョンアップテスト ([8840a07](https://github.com/Ryo-0507/release-please-test/commit/8840a072815a3da04b19aadc4b5bf8a2cb96053b))
+
 ## [1.0.1](https://github.com/Ryo-0507/release-please-test/compare/v1.0.0...v1.0.1) (2026-01-12)
 
 
