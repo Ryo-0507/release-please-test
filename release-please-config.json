@@ -14,7 +14,8 @@
         { "type": "test", "section": "Tests", "hidden": false }
       ],
       "include-v-in-tag": true,
-      "pull-request-title-pattern": "chore(version): release v${version}"
+      "pull-request-title-pattern": "chore(version): release v${version}",
+      "include-component-in-tag": false
     }
   },
   "branches": [
