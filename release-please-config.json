@@ -1,5 +1,8 @@
 {
-  "branches": [{ "branch": "main" }, { "branch": "alpha", "prerelease": true }],
+  "branches": [
+    { "branch": "master" },
+    { "branch": "alpha", "prerelease": true }
+  ],
   "include-v-in-tag": true,
   "pull-request-title-pattern": "chore: release v${version}",
   "changelog-types": [
